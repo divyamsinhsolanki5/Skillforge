@@ -1,0 +1,26 @@
+
+
+---
+
+```markdown
+# Skillforge - Android Learning App
+
+Skillforge is a modern, responsive 3-screen learning application built using Kotlin and Jetpack Compose. The application fetches real-time course and lesson details from a cloud-hosted API using Retrofit and displays it efficiently using the MVVM architecture pattern.
+
+## 📱 Features Built
+* **Home Screen:** Displays active course categories and popular courses with dynamic image loading (Coil). Includes a fully responsive search filter.
+* **Course Detail Screen:** Shows detailed information about the instructor, course content, and structural lesson listings.
+* **Lesson Player Screen:** A dedicated video/lesson playback interface with sequential lesson navigation capabilities.
+
+## 🤖 AI Assistance & Tooling Disclosure
+As per the modern development workflow at Clickretina, this application was heavily optimized using **Gemini AI**. AI was utilized for:
+1. **Architecture & Debugging:** Structuring the Jetpack Navigation routing system to ensure type-safe data key parsing (`IntType` indices) across composable screens.
+2. **UI Implementation:** Designing clean Material 3 UI layouts, lazy grids, and dynamic state filtering mechanisms for the search bar.
+
+## 🛠️ Tech Stack & Libraries Used
+* **Language:** Kotlin
+* **UI Framework:** Jetpack Compose (Material 3)
+* **Architecture:** MVVM (Model-View-ViewModel)
+* **Networking:** Retrofit & OkHttp
+* **Image Loading:** Coil
+* **Asynchronous Operations:** Kotlin Coroutines & StateFlow
