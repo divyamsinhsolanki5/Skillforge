@@ -32,3 +32,4 @@ data class Lesson(
     @SerializedName("duration") val duration: String? = "",
     @SerializedName("isFree") val isFree: Boolean
 )
+
